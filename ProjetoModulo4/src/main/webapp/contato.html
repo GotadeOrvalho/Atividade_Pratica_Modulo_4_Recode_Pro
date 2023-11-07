@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body class="body">
+  <!--Começo do Menu-->
+  <header class="row ">
+    <nav class="navbar navbar-expand-lg bg-dark px-3 m-auto ">
+      <section class="container-fluid col-lg-md-sm-2">
+        <a class="navbar-brand text-white fs-1 px-2 letra  menorletra" href="index.html"
+          title="Link para a página inicial.">
+          <img src="./img/Imagem1.png" height="50" class="d-inline-block align-text-bottom menorletra"
+            alt="Um avião entre as nuvens.">Vamos Viajar</a>
+
+
+
+        <section class="collapse navbar-collapse px-0 mx-0 col-md-sm-9 justify-content-end" id="navbarSupportedContent">
+          <ul class="nav letra">
+            <li class="nav-item ">
+              <a class="nav-link active text-white letracontato" aria-current="page" href="index.html"
+                title="Link pra página inicial.">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white letracontato" href="Destino.html"
+                title="Link para a página de destinos.">Destino</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white letracontato" href="Promoções.html"
+                title="Link para a página de promoções.">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white letracontato" href="contato.html"
+                title="link para a página de contato.">Contato</a>
+            </li>
+          </ul>
+        </section>
+        <div class="col-md-sm-1 mt-3 px-0 justify-content-end mx-0 pb-3">
+          <div class="dropdown">
+            <button class="btn dropdown " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="img/img001.png" alt="" style="height: 2rem">
+            </button>
+            <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="login.html">Login</a></li>
+              <li><a class="dropdown-item" href="cadastro.html">Cadastrar</a></li>
+               <li><a class="dropdown-item" href="cadastrocliente.html">Visualizar como adm</a></li>
+            </ul>
+            <button class="navbar-toggler px-1 mx-0 " type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon px-0 mx-0"></span>
+            </button>
+          </div>
+        </div>
+
+      </section>
+    </nav>
+  </header>
+  <!--Fim do Menu-->
+
+  <!--Começo da Main-->
+  <main class="row justify-content-center ">
+
+    <section class=" row m-0 col-9 masthead2 bgimg-seção2 justify-content-center ">
+
+      <div class=" align-self-center col-11">
+        <div class="h-100">
+          <legend class="pb-3">Entre em contato com nossa agência:</legend>
+          <form class="form-group ">
+            <section>
+              <label for="nome" class="form-label fw-bold">Nome:</label>
+              <input type="text" class="form-control mb-3" id="nome">
+            </section>
+            <section>
+              <label for="email" class="form-label fw-bold">E-mail:</label>
+              <input type="email" class="form-control mb-3" id="email">
+            </section>
+            <section>
+              <label for="mensagem" class="form-label fw-bold">Mensagem:</label>
+              <textarea class="form-control" name="Mensagem mb-3" id="mensagem" rows="5"></textarea>
+            </section>
+            <section class="my-3">
+              <a href="contato.html"><button type="button"
+                  class="btn buttoncontato btn-outline-light py-1 mb-2 fw-bolder fs-5"
+                  title="Link pra envio da mensagem.">Enviar</button></a>
+            </section>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!--Fim da Main-->
+
+  <!--Começo do rodapé-->
+  <footer class="row ">
+    <section class="bg-dark">
+      <section class=" text-white">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card bg-transparent text-white border-0 h-100" style="max-width: 18rem;">
+              <div class="card-body pt-1">
+                <h5 class="card-title">E-mail</h5>
+                <p class="card-text">vamosviajar@email.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent text-white border-0 h-100" style="max-width: 18rem;">
+              <div class="card-body pt-1">
+                <h5 class="card-title">Endereço</h5>
+                <p class="card-text">Rua Onde fico, 333 - Centro, Capital - CE</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent text-white border-0 h-100" style="max-width: 18rem;">
+              <div class="card-body pt-1">
+                <h5 class="card-title">Contato</h5>
+                <p class="card-text mb-0">(99) 99999-9999</p>
+                <p>Horário de atendimento: seg-sex, das 09h as 18h.)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="text-white m-4">
+      <section class="text-white text-center d-flex ">
+        <p class="w-50 pt-2 small">Site desenvolvido por @AdrianeFerreira </p>
+        <p class="w-50 pt-2 small">Em parceria da Recode Pro</p>
+
+      </section>
+    </section>
+  </footer>
+  <!--Fim do rodapé-->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
