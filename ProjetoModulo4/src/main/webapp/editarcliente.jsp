@@ -17,15 +17,15 @@
 <link rel="stylesheet" href="./estilo.css">
 </head>
 <body class="body">
-	<!--Começo do Menu-->
+	<!--Comeï¿½o do Menu-->
 	<header class="row ">
 		<nav class="navbar navbar-expand-lg bg-dark px-3 m-auto ">
 			<section class="container-fluid col-lg-md-sm-2">
 				<a class="navbar-brand text-white fs-1 px-2 letra  menorletra"
-					href="#" title="Link para a página inicial."> <img
+					href="#" title="Link para a pï¿½gina inicial."> <img
 					src="./img/Imagem1.png" height="50"
 					class="d-inline-block align-text-bottom menorletra"
-					alt="Um avião entre as nuvens.">Vamos Viajar
+					alt="Um aviï¿½o entre as nuvens.">Vamos Viajar
 				</a>
 
 
@@ -37,13 +37,13 @@
 						<li class="nav-item "><a
 							class="nav-link active text-white letracontato"
 							aria-current="page" href="passagens"
-							title="Link pra página inicial."> Lista de Passagens</a></li>
+							title="Link pra pï¿½gina inicial."> Lista de Passagens</a></li>
 						<li class="nav-item"><a
 							class="nav-link text-white letracontato" href="destinos"
-							title="Link para a página de destinos.">Lista de Destino</a></li>
+							title="Link para a pï¿½gina de destinos.">Lista de Destino</a></li>
 						<li class="nav-item"><a
 							class="nav-link text-white letracontato" href="clientes"
-							title="Link para a página de destinos.">Lista de Clientes</a></li>
+							title="Link para a pï¿½gina de destinos.">Lista de Clientes</a></li>
 					</ul>
 				</section>
 				<div class="col-md-sm-1 mt-3 px-0 justify-content-end mx-0 pb-3">
@@ -62,7 +62,7 @@
 							<li><a class="dropdown-item" href="cadastrocliente.html">Cadastrar
 									Cliente</a></li>
 							<li><a class="dropdown-item" href="index.html">Visualizar
-									como usuário</a></li>
+									como usuï¿½rio</a></li>
 						</ul>
 						<button class="navbar-toggler px-1 mx-0  " type="button"
 							data-bs-toggle="collapse"
@@ -79,7 +79,7 @@
 	</header>
 	<!--Fim do Menu-->
 
-	<!--Começo da Main-->
+	<!--Comeï¿½o da Main-->
 	<main class="mb-0 row  justify-content-center ">
 		<section class="row col-10  container bg-l justify-content-center ">
 
@@ -147,7 +147,7 @@
 								<i class="bi bi-person-circle"></i>
 							</div>
 							<input class="form-control bg-light" type="text" name="endereco"
-								placeholder="Endereço" value="${clientes.endereco}" required>
+								placeholder="Endereï¿½o" value="${clientes.endereco}" required>
 						</div>
 
 						<div class="input-group pt-4">
@@ -174,7 +174,7 @@
 	</main>
 	<!--Fim da Main-->
 
-	<!--Começo do rodapé-->
+	<!--Comeï¿½o do rodapï¿½-->
 	<footer class="row">
 		<section class="bg-dark">
 			<section class=" text-white">
@@ -192,7 +192,7 @@
 						<div class="card bg-transparent text-white border-0 h-100"
 							style="max-width: 18rem;">
 							<div class="card-body pt-1">
-								<h5 class="card-title">Endereço</h5>
+								<h5 class="card-title">Endereï¿½o</h5>
 								<p class="card-text">Rua Onde fico, 333 - Centro, Capital -
 									CE</p>
 							</div>
@@ -204,7 +204,7 @@
 							<div class="card-body pt-1">
 								<h5 class="card-title">Contato</h5>
 								<p class="card-text mb-0">(99) 99999-9999</p>
-								<p>Horário de atendimento: seg-sex, das 09h as 18h.)</p>
+								<p>Horï¿½rio de atendimento: seg-sex, das 09h as 18h.</p>
 							</div>
 						</div>
 					</div>
@@ -219,7 +219,7 @@
 			</section>
 		</section>
 	</footer>
-	<!--Fim do rodapé-->
+	<!--Fim do rodapï¿½-->
 
 </body>
 
